@@ -500,18 +500,6 @@ IP Address Lookups
 * **Documentation**: https://ipregistry.co/docs
 * **Terms of Service**: https://ipregistry.co/terms
 
-### Ipstack (`:ipstack`)
-
-* **API key**: required (see https://ipstack.com/product)
-* **Quota**: 10,000 requests per month (with free API Key, 50,000/day and up for paid plans)
-* **Region**: world
-* **SSL support**: yes ( only with paid plan )
-* **Languages**: English, German, Spanish, French, Japanese, Portugues (Brazil), Russian, Chinese
-* **Documentation**: https://ipstack.com/documentation
-* **Terms of Service**: ?
-* **Limitations**: ?
-* **Notes**: To use Ipstack set `Geocoder.configure(ip_lookup: :ipstack, api_key: "your_ipstack_api_key")`. Supports the optional params: `:hostname`, `:security`, `:fields`, `:language` (see API documentation for details).
-
 ### MaxMind Legacy Web Services (`:maxmind`)
 
 * **API key**: required
